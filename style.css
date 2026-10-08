@@ -1,0 +1,107 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding-left: 09%;
+   font-style:sans-serif;
+   font-size: 20px;
+    
+}
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  margin-right: 20px;
+ text-align: center;
+}
+
+
+.hero {
+    
+    font-size: 30px;
+    background: #fbf8f8;
+    padding: 200px 20px;
+    padding-left: 09%;
+    background-image: url("images/caffeine-coffee-coffee-beans-585750.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(8, 8, 8);
+    
+   
+}
+
+.about {
+    
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 110px 20px;
+  background: #f7f4ee;
+}
+.about-container{
+    max-width: 1100px;
+    margin: 0 auto  ;
+}
+
+.about-text span {
+  font-size: 30px;
+  color: #777;
+}
+.about-text h2 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.about-text p {
+  color: #555;
+  line-height: 1.5;
+  font-size: 20px;
+}
+.about-text a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #000;
+  font-weight: bold;
+}
+
+
+.menu {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.menu-item {
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.booking {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.booking form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+}
+button{
+    background-color: antiquewhite;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #222;
+    color: white;
+}
+h3{
+    font: italic;
+    font-size: 30px;
+}
+
+
