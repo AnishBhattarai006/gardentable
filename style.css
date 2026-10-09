@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -5,14 +8,23 @@ header {
     padding-left: 09%;
    font-style:sans-serif;
    font-size: 20px;
-    
+   
 }
+header img{
+    width: 500px;
+    height: 200px;
+   
+}
+
+
 nav a {
+  
   margin-left: 20px;
-  text-decoration: none;
+  text-decoration:dotted;
   color: #333;
   margin-right: 20px;
- text-align: center;
+
+  text-align: center;
 }
 
 
@@ -20,7 +32,8 @@ nav a {
     
     font-size: 30px;
     background: #fbf8f8;
-    padding: 200px 20px;
+    padding: 150px 20px;
+    
     padding-left: 09%;
     background-image: url("images/caffeine-coffee-coffee-beans-585750.jpg");
     background-size: cover;
@@ -30,6 +43,17 @@ nav a {
    
 }
 
+.hero p{
+
+    font-size: 25px;
+}
+.hero a{
+  background-color: #F4ECE1; 
+  color: #2C221E;           
+  padding: 12px 24px;       
+  border-radius: 6px;       
+  border: none;
+}
 .about {
     
   display: flex;
@@ -38,15 +62,15 @@ nav a {
   max-width: 100%;
   margin: 0 auto;
   padding: 110px 20px;
-  background: #f7f4ee;
+  background: #f3eee5;
 }
 .about-container{
-    max-width: 1100px;
+    max-width: 1300px;
     margin: 0 auto  ;
 }
 
 .about-text span {
-  font-size: 30px;
+  font-size: 40px;
   color: #777;
 }
 .about-text h2 {
@@ -57,41 +81,324 @@ nav a {
 .about-text p {
   color: #555;
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 25px;
 }
 .about-text a {
+    
+    font-size: 25px;
+    margin-left: 400px;
+    align-content: center;
   display: inline-block;
   margin-top: 10px;
-  color: #000;
+  color: #ad1515;
   font-weight: bold;
 }
+.about img{
+    padding-left: 60px;
+}
+
+.featured-section {
+    background-color: #eeeadf;
+    padding: 60px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.simple-container {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.featured-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sub-title {
+    color: #4a5140;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.featured-header h2 {
+    color: #344331;
+    font-size: 28px;
+    margin: 5px 0 10px 0;
+}
+.featured-header p {
+    color: #555555;
+    font-size: 14px;
+}
+.dishes-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    width: 30%;
+    min-width: 280px;
+    box-sizing: border-box;
+}
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.card-text {
+    padding: 20px;
+}
+
+.card-text h3 {
+    margin: 0 0 8px 0;
+    color: #344331;
+    font-size: 18px;
+}
+.price {
+    color: #687457;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+.card-text p {
+    color: #666666;
+    font-size: 13px;
+    line-height: 1.4;
+    margin: 0;
+}
+
 
 
 .menu {
-    padding: 60px 20px;
+    font-size: 30px;
+    adding: 60px 20px;
     text-align: center;
+    background-image: url('your-image.jpg'); /
+    background-size : cover;                  
+    background-position: center;             
+    background-repeat: no-repeat;            
+}
+.menu-links {
+    margin: 30px 0;
+}
+
+.menu-links a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+.menu-links a:hover {
+    text-decoration: underline;
 }
 
 .menu-item {
-    margin: 20px auto;
+    margin: 80px auto;
     max-width: 400px;
 }
+/* Reviews Section */
+
+.reviews {
+    padding: 70px 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.reviews h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.review-intro {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Review boxes */
+
+.review-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.review {
+    background-color: white;
+    width: 280px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.stars {
+    color: #f5b301;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.review p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.review h3 {
+    margin-bottom: 5px;
+}
+
+.review span {
+    color: #777;
+    font-size: 14px;
+}
+
 
 .booking {
+    background-color: #eeeadf;
     padding: 60px 20px;
     text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.booking h2,
+.my-bookings h2 {
+    color: #344331;
+    font-size: 32px;
+    margin-bottom: 30px;
 }
 
 .booking form {
+    max-width: 400px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    max-width: 400px;
-    margin: auto;
 }
-button{
-    background-color: antiquewhite;
+
+.booking input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 15px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    outline: none;
+    background-color: #ffffff;
 }
+
+.booking input:focus {
+    border-color: #687457;
+    box-shadow: 0 0 4px rgba(104, 116, 87, 0.3);
+}
+
+.booking button {
+    background-color: #344331;
+    color: #ffffff;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.booking button:hover {
+    background-color: #687457;
+}
+
+.my-bookings {
+    background-color: #f7f4ed;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    min-height: 200px;
+}
+
+.my-bookings h2 {
+    margin-bottom: 10px;
+}
+
+.booking-description {
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+
+.no-bookings {
+    color: #777777;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+
+.booking-card {
+    background-color: #ffffff;
+    max-width: 550px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: left;
+    border: 1px solid #e0dfd5;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.booking-card h3 {
+    color: #344331;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+
+.booking-card p {
+    color: #444444;
+    font-size: 15px;
+    margin: 12px 0;
+    overflow-wrap: anywhere;
+}
+
+
+.booking-card button {
+    background-color: #8b3a2b;
+    color: #ffffff;
+    padding: 11px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.booking-card button:hover {
+    background-color: #6d2c21;
+}
+
+
+@media (max-width: 600px) {
+    .booking,
+    .my-bookings {
+        padding: 40px 15px;
+    }
+
+    .booking h2,
+    .my-bookings h2 {
+        font-size: 27px;
+    }
+
+    .booking-card {
+        padding: 20px;
+    }
+}
+
+
 
 footer {
     text-align: center;

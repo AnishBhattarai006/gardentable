@@ -11,48 +11,105 @@
 
 <body>
     <header>
-    <h1>The Garden Table</h1>
+    <h1>The Garden Table Cafe</h1>
     <nav>
-        <a href="Home">Home</a>
-        <a href="About">About</a>
-        <a href="Menu">Menu</a>
-        <a href="Review">Review</a>
-        <a href="Booking">Booking</a>
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#reviews">Review</a>
+        <a href="#booking">Booking</a>
     </nav>
 </header>
 
-    <section class="hero">
-        <h2>Fresh Food, Beautiful Moments</h2>
-        <p>Welcome to The Garden Table.</p>
+    <section id="hero" class="hero">
+        <h2>The Garden Table</h2>
+        <p>Fresh food. Good coffee. Great mornings.</p>
+        <p>Independent cafe serving freshly prepared breakfast, brunch and coffee in London.</p>
         <a href="#">Book a Table</a>
     </section>
 
-  <section class="about">
+  <section id="about" class="about">
+    <img src="images/OIP.jpg" alt="Cafe interior">
   <div class="about-text">
     <span>OUR STORY</span>
     <h2>A neighbourhood cafe made with care.</h2>
     <p>The Garden Table opened in 2022 to create a relaxed neighbourhood cafe where people can enjoy fresh food and great coffee.</p>
     <p>We prepare our food fresh every morning using locally sourced ingredients. Our table is always ready for you.</p>
-    <a href="About">Explore our menu &rarr;</a>
+    <a href="#menu">Explore our menu &rarr;</a>
   </div>
   
-  <img src="images/OIP.jpg" alt="Cafe interior">
+  
 </section>
 
+        
+<div class="featured-section">
+    <div class="simple-container">
+
+        
+        <div class="featured-header">
+            <span class="sub-title">FEATURED DISHES</span>
+            <h2>Popular Menu Items</h2>
+            <p>Here are a few tasty dishes we serve fresh every day!</p>
+        </div>
+
+       
+        <div class="dishes-wrapper">
+
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=500&q=80" alt="Avocado Toast">
+                <div class="card-text">
+                    <h3>Avocado Toast</h3>
+                    <p class="price">£9.50</p>
+                    <p>Sourdough bread with poached eggs and avocado.</p>
+                </div>
+            </div>
+
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=500&q=80" alt="Pancakes">
+                <div class="card-text">
+                    <h3>Berry Pancakes</h3>
+                    <p class="price">£8.50</p>
+                    <p>Fluffy pancakes served with sweet berries and syrup.</p>
+                </div>
+            </div>
+
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=500&q=80" alt="Breakfast Bowl">
+                <div class="card-text">
+                    <h3>Breakfast Bowl</h3>
+                    <p class="price">£10.00</p>
+                    <p>Fresh veggies, grains, and house avocado sauce.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
    
 
-    <section class="menu">
+    <section id="menu" class="menu">
         <h2>Our Menu</h2>
+            <div class="menu-links">
+                <a href="#breakfast">Breakfast</a>
+                <a href="#brunch">Brunch</a>
+                <a href="#drinks">Drinks</a>
+                <a href="#desserts">Desserts</a>
+            </div>
+
         <div class="menu-item">
             <h3>Garden Pasta</h3>
             <p>Fresh vegetables and creamy sauce.</p>
             
             <section class="menu">
 
-        <h2>Our Menu</h2>
+        
 
     <section class="Breakfast">
-        <h3>Breakfast</h3>
+        <h3 id="breakfast">Breakfast</h3>
 
         <div class="menu-item">
             <h4>Avocado Toast</h4>
@@ -73,7 +130,7 @@
     
    </div>
 
-    <h3>Brunch</h3>
+    <h3 id="brunch">Brunch</h3>
 
     <div class="menu-item">
         <h4>Chicken &amp; Avocado Sandwich</h4>
@@ -94,7 +151,7 @@
     </div>
 
 
-    <h3>Drinks</h3>
+    <h3 id="drinks">Drinks</h3>
 
     <div class="menu-item">
         <h4>Flat White</h4>
@@ -121,7 +178,7 @@
     </div>
 
 
-    <h3>Desserts</h3>
+    <h3 id="desserts">Desserts</h3>
 
     <div class="menu-item">
         <h4>Chocolate Cake</h4>
@@ -140,20 +197,91 @@
         <p>Fresh and buttery croissant</p>
         <p>£3.20</p>
     </div>
+    
 
     </section>
         </div>
     </section>
 
-    <section class="booking">
-        <h2>Book a Table</h2>
-        <form>
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Your Email">
-            <input type="number" placeholder="Guests">
-            <button type="submit">Reserve</button>
-        </form>
-    </section>
+    <section id="reviews"class="reviews">
+
+    <h2>What Our Customers Say</h2>
+
+    <p class="review-intro">
+        We love hearing from our customers.
+    </p>
+
+    <div class="review-container">
+
+        <div class="review">
+            <div class="stars">★★★★★</div>
+            <p>
+                "The food was absolutely delicious and the service was amazing.
+                I will definitely come back!"
+            </p>
+            <h3>Sarah Mitchell</h3>
+            <span>London, UK</span>
+        </div>
+
+
+        <div class="review">
+            <div class="stars">★★★★★</div>
+            <p>
+                "Such a lovely place for breakfast. The coffee was excellent
+                and the staff were very friendly."
+            </p>
+            <h3>James Wilson</h3>
+            <span>Manchester, UK</span>
+        </div>
+
+
+        <div class="review">
+            <div class="stars">★★★★★</div>
+            <p>
+                "Beautiful atmosphere, fresh food and great prices.
+                One of my favourite places to eat!"
+            </p>
+            <h3>Emma Brown</h3>
+            <span>Birmingham, UK</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section id="booking" class="booking">
+    <h2>Book a Table</h2>
+
+    <form id="bookingForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <input type="email" id="email" placeholder="Your Email" required>
+
+        <input type="number" id="guests"
+            placeholder="Number of Guests" min="1" required>
+
+        <input type="date" id="date" required>
+
+        <button type="submit">Reserve a Table</button>
+    </form>
+</section>
+
+
+<section class="my-bookings">
+    <h2>My Bookings</h2>
+    <p class="booking-description">
+        View and manage your table reservations.
+    </p>
+
+    <div id="bookingList">
+        <p class="no-bookings">No bookings yet.</p>
+    </div>
+</section>
+
+
+
 
 
     <footer>
@@ -162,5 +290,5 @@
     <p>© 2026 The Garden Table</p>
 </footer>
 
-
+<script src="script.js"></script>
 </body>
